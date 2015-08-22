@@ -3,7 +3,7 @@ var esUtil=require('./esUtil')
 var mongoutil=require("./mongoUtil");
 var fs=require("fs");
 var async=require("async");
-var cawlConfig=require('./scripts/pepperfry.json')
+var cawlConfig=require('./scripts/fashionara.json')
 
 //initialize mongo util for only 1 model
 var objmongoutil = new mongoutil('localhost','sos',cawlConfig.sitemap.model);
