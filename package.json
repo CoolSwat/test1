@@ -1,0 +1,63 @@
+{
+  "name": "theswan",
+  "version": "0.0.1",
+  "description": "swan is a e-commerce data crawler",
+  "main": "./lib/maggi",
+  "bin": {
+    "noodle": "./bin/maggi-server"
+  },
+  "dependencies": {
+    "JSONSelect": "0.4.0",
+    "async": "^0.9.0",
+    "chai": "1.4.2",
+    "cheerio": "0.10.1",
+    "colors": "0.6.0-1",
+    "connect": "~2.3.5",
+    "connect-ratelimit": "0.0.5",
+    "elasticsearch": "^4.0.2",
+    "feedparser": "0.10.7",
+    "generic-pool": "2.1.1",
+    "hashmap": "^2.0.3",
+    "iconv": "*",
+    "iconv-lite": "0.4.4",
+    "jschardet": "1.1.0",
+    "lodash": "2.4.1",
+    "mocha": "1.7.4",
+    "moment": "1.7.2",
+    "mongoose": "^4.0.2",
+    "mongoose-paginate": "^3.1.3",
+    "mysql": "2.5.1",
+    "natural": "^0.2.1",
+    "nedb": "^0.11.1",
+    "porter-stemmer": "^0.9.1",
+    "q": "0.8.9",
+    "request": "2.42.0",
+    "underscore": "1.4.2",
+    "winston": "0.8.3",
+    "winston-elasticsearch": "0.1.1",
+    "xml2json": "0.3.2",
+    "xml2object": "^0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bin/maggi-server"
+  },
+  "engines": {
+    "node": "0.6.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jagdeep1/theswan.git"
+  },
+  "keywords": [
+    "scraper"
+  ],
+  "author": {
+    "name": "Jagdeep"
+  },
+  "license": "BSD",
+  "readme": "",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/jagdeep1/theswan"
+}

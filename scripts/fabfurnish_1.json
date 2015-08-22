@@ -1,0 +1,35 @@
+ {
+    "url": "http://www.caratlane.com/jewellery/linked-bloom-necklace-jl00076-yg00pd.html",
+    "type": "html",
+    "map": {
+        "title": {
+            "selector": "#product_name",
+            "extract": "text"
+        },
+        "price": {
+            "selector": "#special_price_box",
+            "extract": "text"
+        },
+        "pricex": {
+            "selector": "#price_box",
+            "extract": "text"
+        },
+        "soldOutStatus": {
+            "selector": "#SoldOut",
+            "extract": "style"
+        },
+        "image":{
+          "selector":"#imgThumb_1 a",
+          "extract":"href"
+        },
+		"category":{
+			"selector":".breadcrumbWideDesign li",
+			"extract":"text"
+		},
+        "details":{
+          "selector":".prd-attr-box.bb",
+          "extract":"text"
+        }
+		
+    }
+}
